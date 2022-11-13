@@ -1,0 +1,20 @@
+/* * {
+  border: 1px dotted gray;
+} */
+
+.align_center {
+  display: flex;
+  justify-content: center;
+}
+div {
+  margin: 2rem;
+}
+ul {
+  padding: 0;
+}
+a {
+  padding: 0px 2rem;
+}
+button {
+  background-color: ;
+}

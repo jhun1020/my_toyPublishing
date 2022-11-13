@@ -1,0 +1,37 @@
+/* * {
+  border: 1px dotted gray;
+} */
+
+.align_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.align_30 {
+  margin-left: 30%;
+}
+
+.logo {
+  width: 200px;
+}
+
+input[type] {
+  width: 350px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+button[type="submit"] {
+  width: 360px;
+  height: 35px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: white;
+  border: 0px;
+  background-color: rgb(51, 135, 189);
+}
+
+button:hover {
+  background-color: darkblue;
+}
