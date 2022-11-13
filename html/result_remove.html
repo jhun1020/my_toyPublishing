@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/result_remove.css" />
     <title>Document</title>
   </head>
   <body>
@@ -12,7 +12,11 @@
       <ul class="head_ul">
         <li>
           <ul>
-            <li><img class="logo" src="../img/로고가로.PNG" alt="" /></li>
+            <li>
+              <a href="./main.html"
+                ><img class="logo" src="../img/로고가로.PNG" alt=""
+              /></a>
+            </li>
           </ul>
         </li>
         <li class="result_menu">
@@ -31,6 +35,16 @@
       </ul>
     </header>
 
-    <section><img src="../img/현대차.png" alt="" /></section>
+    <br />
+    <br /><br /><br />
+
+    <section>
+      <form action="./result_remove.html">
+        <label for="password">비밀번호</label>
+
+        <input type="password" id="password" name="password" />
+        <button type="submit">삭제</button>
+      </form>
+    </section>
   </body>
 </html>
